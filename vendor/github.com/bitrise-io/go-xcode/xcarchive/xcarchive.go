@@ -69,7 +69,7 @@ func getAppSubfolder(basepth string) string {
 
 func findDSYMs(archivePath string) ([]string, []string, error) {
 	dsymsDirPth := filepath.Join(archivePath, "dSYMs")
-	dsyms, err := utility.ListEntries(dsymsDirPth, pathutil.ExtensionFilter(".dsym", true))
+	dsyms, err := pathutil.ListEntries(dsymsDirPth, pathutil.ExtensionFilter(".dsym", true))
 	if err != nil {
 		return []string{}, []string{}, err
 	}

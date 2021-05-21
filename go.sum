@@ -46,8 +46,9 @@ github.com/bitrise-io/go-utils v0.0.0-20210520073355-367fa34178f5 h1:kclxBfygfNK
 github.com/bitrise-io/go-utils v0.0.0-20210520073355-367fa34178f5/go.mod h1:DRx7oFuAqk0dbKpAKCqWl0TgrowfJUb/MqYPRscxJOQ=
 github.com/bitrise-io/go-xamarin v0.0.0-20210519123500-acea30f4caad h1:KFshPET6nvwptQhOzBtpi7A+QZIZJuZEy23xC2NXLLE=
 github.com/bitrise-io/go-xamarin v0.0.0-20210519123500-acea30f4caad/go.mod h1:w+iF7jlZGSalbGO7WHLHYUiivtd3p78VQYnEQ/t+WxM=
-github.com/bitrise-io/go-xcode v0.0.0-20210520114025-bdbec53ee59f h1:vx+uiuLDMqsbdqXorl0uO/LMVBLxeitMebyBRdvEqvk=
 github.com/bitrise-io/go-xcode v0.0.0-20210520114025-bdbec53ee59f/go.mod h1:a5IANtAnyazHgNjI6/kwQw5vU/WJo1zQ4Lja9WRUNmA=
+github.com/bitrise-io/go-xcode v0.0.0-20210521101355-fb6a1eb6e05b h1:JyTlzvdOBOxtYZ7aZVCog2dZUv8LgA8UftT+TpVWtZY=
+github.com/bitrise-io/go-xcode v0.0.0-20210521101355-fb6a1eb6e05b/go.mod h1:6Nv5RAsAVS745xN5IihUExVmCA9n9f7s/DSVow4hXrI=
 github.com/bitrise-io/goinp v0.0.0-20210504152833-8559b0680ab1 h1:iQZl/dKHp14xol7ye4e9FaSrw8o27TF5/nv3aUDfdD0=
 github.com/bitrise-io/goinp v0.0.0-20210504152833-8559b0680ab1/go.mod h1:iRbd8zAXLeNy+0gic0eqNCxXvDGe8ZEY/uYX2CCeAoo=
 github.com/bitrise-io/gows v0.0.0-20210505125306-dd92ff463938/go.mod h1:3Cp9ceJ8wHl1Av6oEE2ff1iWaYLliQuD+oaNdyM0NWQ=
@@ -306,8 +307,9 @@ golang.org/x/sys v0.0.0-20200219091948-cb0a6d8edb6c/go.mod h1:h1NjWce9XRLGQEsW7w
 golang.org/x/sys v0.0.0-20201119102817-f84b799fce68/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20210503173754-0981d6026fa6/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20210511113859-b0526f3d8744/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
-golang.org/x/sys v0.0.0-20210514084401-e8d321eab015 h1:hZR0X1kPW+nwyJ9xRxqZk1vx5RUObAPBdKVvXPDUH/E=
 golang.org/x/sys v0.0.0-20210514084401-e8d321eab015/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.0.0-20210521090106-6ca3eb03dfc2 h1:48AqIJLs69Wmc3mA52aIcqt544rjrDCqolKAv7L8leA=
+golang.org/x/sys v0.0.0-20210521090106-6ca3eb03dfc2/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=
 golang.org/x/term v0.0.0-20210503060354-a79de5458b56 h1:b8jxX3zqjpqb2LklXPzKSGJhzyxCOZSz8ncv8Nv+y7w=
 golang.org/x/term v0.0.0-20210503060354-a79de5458b56/go.mod h1:tfny5GFUkzUvx4ps4ajbZsCe5lw1metzhBm9T3x7oIY=

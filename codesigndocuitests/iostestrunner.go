@@ -9,7 +9,6 @@ import (
 	"github.com/bitrise-io/go-utils/pathutil"
 	"github.com/bitrise-io/go-xcode/plistutil"
 	"github.com/bitrise-io/go-xcode/profileutil"
-	"github.com/bitrise-io/go-xcode/utility"
 )
 
 // IOSTestRunner ...
@@ -22,7 +21,7 @@ type IOSTestRunner struct {
 
 // NewIOSTestRunners is the *-Runner.app which is generated with the xcodebuild build-for-testing command
 func NewIOSTestRunners(path string) ([]*IOSTestRunner, error) {
-	runnerPattern := filepath.Join(utility.EscapeGlobPath(path), "*-Runner.app")
+	runnerPattern := filepath.Join(pathutil.EscapeGlobPath(path), "*-Runner.app")
 	possibleTestRunnerPths, err := filepath.Glob(runnerPattern)
 	if err != nil {
 		return nil, err
